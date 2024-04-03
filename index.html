@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>codexes landing page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="nav.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="nav containerr">
+        <div class="nav__data">
+            <a href="#" class="nav__logo">
+                <img src="img/logo.png" style="height: 8vh; width: 8vh;"/>
+            </a>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line nav__toggle-menu"></i>
+                <i class="ri-close-line nav__toggle-close"></i>
+            </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+
+                <!--=============== DROPDOWN 1 ===============-->
+                <li class="dropdown__item">                      
+                    <div class="nav__link dropdown__button">
+                        Discover <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <div class="dropdown__container">
+                        <div class="dropdown__content">
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-flashlight-line"></i>
+                                </div>
+
+                                <span class="dropdown__title">Most viewed courses</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">HTML for beginners</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Advanced CSS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">JavaScript OOP</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-heart-3-line"></i>
+                                </div>
+
+                                <span class="dropdown__title">Popular courses</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">Development with Flutter</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Web development with React</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Backend development expert</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-book-mark-line"></i>
+                                </div>
+
+                                <span class="dropdown__title">Careers</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">Web development</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Applications development</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">UI/UX design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Informatic security</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-file-paper-2-line"></i>
+                                </div>
+
+                                <span class="dropdown__title">Certifications</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                      <i class="ri-file-paper-2-line" style="font-size: 0.5rem;"></i>
+                                        <a href="#" class="dropdown__link">Course certificates</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Free certifications</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--=============== DROPDOWN 2 ===============-->
+                <li class="dropdown__item">
+                    <div class="nav__link dropdown__button">
+                        Resources <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <div class="dropdown__container">
+                        <div class="dropdown__content">
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-code-line"></i>
+                                </div>
+
+                                <span class="dropdown__title">Web templates</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">Free templates</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Premium templates</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-pen-nib-line"></i>
+                                </div>
+
+                                <span class="dropdown__title">Designs</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">Web designs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">App designs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Component design</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-apps-2-line"></i>
+                                </div>
+
+                                <span class="dropdown__title">Others</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">Recent blogs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Tutorial videos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Webinar</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <!--=============== DROPDOWN 3 ===============-->
+                <li class="dropdown__item">                        
+                    <div class="nav__link dropdown__button">
+                        Company <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <div class="dropdown__container">
+                        <div class="dropdown__content">
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-community-line"></i>
+                                </div>
+
+                                <span class="dropdown__title">About us</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="dropdown__group">
+                                <div class="dropdown__icon">
+                                    <i class="ri-shield-line"></i>
+                                </div>
+
+                                <span class="dropdown__title">Safety and quality</span>
+
+                                <ul class="dropdown__list">
+                                    <li>
+                                        <a href="#" class="dropdown__link">Cookie settings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown__link">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </div>
+</header>
+
+  <header class="page-header gradient">
+    <div class="container pt-6">
+      <div class="row">
+        <div class="col-md-6 mt-3">
+          <h2>Doing More for Your Technical Success</h2>
+          <p>Need an App? There are millions in existence, so how do you make yours stand out? Well, that’s where we
+            come in!</p>
+        </div>
+        <div class="col-md-6 mt-3 align-items-center justify-content-center">
+          <div class="mb-3">
+            <div class="row mt-4">
+              <div class="col-md-6 mt-1">
+                <label for="exampleFormControlInput1" class="form-label">Your Full Name</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Full name">
+              </div>
+              <div class="col-md-6 mt-1">
+                <label for="exampleFormControlInput1" class="form-label">Your phone number</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mt-1">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="col-md-6 mt-1">
+                <label for="exampleFormControlInput1" class="form-label">Budget</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Full name">
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">About Your Project</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,32L48,64C96,96,192,160,288,154.7C384,149,480,75,576,80C672,85,768,171,864,192C960,213,1056,171,1152,149.3C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </header>
+  <section class="technology">
+    <h1>Technologies we work with</h1>
+  <div class="tabs">
+    <input type="radio" name="tab" id="tab-nav-1" checked>
+    <label for="tab-nav-1">Mobile</label>
+    <input type="radio" name="tab" id="tab-nav-2" >
+    <label for="tab-nav-2">FrontEnd</label>
+    <input type="radio" name="tab" id="tab-nav-3" >
+    <label for="tab-nav-3">Database</label>
+    <input type="radio" name="tab" id="tab-nav-4" >
+    <label for="tab-nav-4">BackEnd</label>
+    <!-- <input type="radio" name="tab" id="tab-nav-5" >
+    <label for="tab-nav-5">Digital Marketing</label> -->
+    <div class="tab">
+      <div>
+        <h3>Mobile</h3>
+        <div class="row mt-4">
+          <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+              <div class="icon-box">
+                <i class="fa-brands fa-apple"></i>
+              </div>
+              <h4>iOS</h4>
+          </div>
+          <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+            <div class="icon-box">
+              <i class="fa-brands fa-android"></i>
+            </div>
+            <h4>Android</h4>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+          <div class="icon-box">
+            <i class="fa-brands fa-react"></i>
+          </div>
+          <h4>React native</h4>
+      </div>
+      <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+        <div class="icon-box">
+          <i class="fa-brands fa-kickstarter"></i>
+        </div>
+        <h4>Kotine</h4>
+    </div>
+    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+      <div class="icon-box">
+        <i class="fa-solid fa-f"></i>
+      </div>
+      <h4>Flutter</h4>
+  </div>
+  <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+    <div class="icon-box">
+      <i class="fa-brands fa-swift"></i>
+    </div>
+    <h4>Swift</h4>
+</div>
+        </div>
+      </div>
+      <div>
+        <h3>FrontEnd</h3>
+        <div class="row mt-4">
+          <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+              <div class="icon-box">
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <h4>React Js</h4>
+          </div>
+          <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+            <div class="icon-box">
+              <i class="fa-brands fa-angular"></i>
+            </div>
+            <h4>Angular</h4>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+          <div class="icon-box">
+            <i class="fa-solid fa-t"></i>
+          </div>
+          <h4>Typescript JS</h4>
+      </div>
+      <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+        <div class="icon-box">
+          <i class="fa-brands fa-vuejs"></i>
+        </div>
+        <h4>Vue</h4>
+    </div>
+    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+      <div class="icon-box">
+        <i class="fa-brands fa-html5"></i>
+            </div>
+      <h4>HTML5</h4>
+  </div>
+  <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+    <div class="icon-box">
+      <i class="fa-brands fa-wpforms"></i>
+    </div>
+    <h4>WPF</h4>
+</div>
+        </div>
+      </div>
+      <div>
+        <h3>Database</h3>
+        <div class="row mt-4">
+          <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+              <div class="icon-box">
+                <i class="fa-brands fa-envira"></i>
+              </div>
+              <h4>Mongo DB</h4>
+          </div>
+          <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+            <div class="icon-box">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h4>MySQL</h4>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+          <div class="icon-box">
+            <i class="fa-solid fa-fire"></i>
+          </div>
+          <h4>Firebase</h4>
+      </div>
+      <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+        <div class="icon-box">
+          <i class="fa-solid fa-republican"></i>
+        </div>
+        <h4>PostgreSQL</h4>
+    </div>
+    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+      <div class="icon-box">
+        <i class="fa-solid fa-o"></i>
+      </div>
+      <h4>Oracle</h4>
+  </div>
+  <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+    <div class="icon-box">
+      <i class="fa-solid fa-server"></i>
+        </div>
+    <h4>MsSQL</h4>
+</div>
+        </div>
+      </div>
+      <div>
+        <h3>Backend</h3>
+        <div class="row mt-4">
+          <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+              <div class="icon-box">
+                <i class="fa-brands fa-php"></i>
+              </div>
+              <h4>Php</h4>
+          </div>
+          <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+            <div class="icon-box">
+              <i class="fa-brands fa-java"></i>
+            </div>
+            <h4>Java</h4>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+          <div class="icon-box">
+            <i class="fa-brands fa-neos"></i>
+          </div>
+          <h4>.Net</h4>
+      </div>
+      <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+        <div class="icon-box">
+          <i class="fa-brands fa-node"></i>
+        </div>
+        <h4>Node.js</h4>
+    </div>
+    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+      <div class="icon-box">
+        <i class="fa-solid fa-road"></i>
+      </div>
+      <h4>Rails</h4>
+  </div>
+  <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+    <div class="icon-box">
+      <i class="fa-brands fa-python"></i>
+    </div>
+    <h4>Python</h4>
+</div>
+        </div>
+      </div>
+      <!-- <div>
+        <h3>Digital marketing</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet rerum minima possimus. Inventore doloribus sint impedit! Odit laboriosam accusantium, pariatur aspernatur voluptates quisquam aut officiis fugit nesciunt inventore culpa mollitia.</p>
+      </div> -->
+    </div>
+  </div>
+  </section>
+  <section class="about gradient">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="#fff" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,138.7C384,160,480,192,576,181.3C672,171,768,117,864,96C960,75,1056,85,1152,112C1248,139,1344,181,1392,202.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <img src="img/receptionist-outline.svg" alt="">
+        </div>
+        <div class="col-md-6">
+          <h2 class="my-3">Doing More for Your Technical Success</h2>
+          <p class="my-4">Need an App? There are millions in existence, so how do you make yours stand out? Well, that’s
+            where we come in!</p>
+          <ul>
+            <li>Dedicated development team</li>
+            <li>End-to-end software development</li>
+            <li>PoC/MVP development</li>
+            <li>Legacy software modernization</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,32L48,64C96,96,192,160,288,154.7C384,149,480,75,576,80C672,85,768,171,864,192C960,213,1056,171,1152,149.3C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <section class="icons">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+              fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+              <path
+                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+            </svg></div>
+          <h3>Cross-Platform All the Way</h3>
+          <p>The digital solutions we create for our clients are constructed to handle millions of simultaneous
+            interactions across platforms.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+              fill="currentColor" class="bi bi-bezier2" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1 2.5A1.5 1.5 0 0 1 2.5 1h1A1.5 1.5 0 0 1 5 2.5h4.134a1 1 0 1 1 0 1h-2.01c.18.18.34.381.484.605.638.992.892 2.354.892 3.895 0 1.993.257 3.092.713 3.7.356.476.895.721 1.787.784A1.5 1.5 0 0 1 12.5 11h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5H6.866a1 1 0 1 1 0-1h1.711a2.839 2.839 0 0 1-.165-.2C7.743 11.407 7.5 10.007 7.5 8c0-1.46-.246-2.597-.733-3.355-.39-.605-.952-1-1.767-1.112A1.5 1.5 0 0 1 3.5 5h-1A1.5 1.5 0 0 1 1 3.5zM2.5 2a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm10 10a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
+            </svg></div>
+          <h3>Experienced UI/UX Designers</h3>
+          <p>Apart from a cutting-edge development team, we have the best designers and graphic engineers that construct
+            not just interfaces but experiences for your users to love.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+              fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707m-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707" />
+            </svg></div>
+          <h3>Loading Speed Matters</h3>
+          <p>If there is one thing that is critical to your success with the mobile-first audience, it is the loading
+            speed of your website, app, or any other digital offerings.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 173">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,160L48,165.3C96,171,192,181,288,160C384,139,480,85,576,53.3C672,21,768,11,864,37.3C960,64,1056,128,1152,149.3C1248,171,1344,149,1392,138.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row my-3 g-3">
+        <div class="col-md-10">
+          <h1>Check our latest awesome cretive work</h1>
+          <p>It's crafted with the latest trend with design and coded with all modern approaches. It's robust and
+            multi-dimesional unable template.</p>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-4"><img src="img/charlesdeluvio-GXNo-OJynTQ-unsplash.jpg"
+            style="width: 100%; height: 350px; border-radius: 10px;" /></div>
+        <div class="col-md-4"><img src="img/charlesdeluvio-GXNo-OJynTQ-unsplash.jpg"
+            style="width: 100%; height: 350px; border-radius: 10px;" /></div>
+        <div class="col-md-4"><img src="img/charlesdeluvio-GXNo-OJynTQ-unsplash.jpg"
+            style="width: 100%; height: 350px; border-radius: 10px;" /></div>
+      </div>
+      <div class="row mt-2 justify-content-end">
+        <div class="col-md-2">
+          <button type="button" class="btn btn-outline-primary">View More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services gradient">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="whitesmoke" fill-opacity="1" d="M0,128L48,117.3C96,107,192,85,288,106.7C384,128,480,192,576,181.3C672,171,768,85,864,90.7C960,96,1056,192,1152,197.3C1248,203,1344,117,1392,74.7L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5">
+          <button type="button" class="btn btn-outline-primary mb-3">coding</button>
+          <h1>we code</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusantium excepturi facere aspernatur,
+            deserunt corporis nulla tempora dolor quisquam autem, veritatis recusandae, dolorum explicabo impedit quod
+            amet illo? Culpa, impedit?</p>
+        </div>
+        <div class="col-md-5"><img src="img/coding-monochromatic-4c818.png" style="width: 80%; height: 80%" alt="">
+        </div>
+        <div class="col-md-5"><img src="img/coding-monochromatic-4c818.png" style="width: 80%; height: 80%" alt="">
+        </div>
+        <div class="col-md-5">
+          <button type="button" class="btn btn-outline-warning mb-3">coding</button>
+          <h1>we code</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusantium excepturi facere aspernatur,
+            deserunt corporis nulla tempora dolor quisquam autem, veritatis recusandae, dolorum explicabo impedit quod
+            amet illo? Culpa, impedit?</p>
+        </div>
+        <div class="col-md-5">
+          <button type="button" class="btn btn-outline-warning mb-3">coding</button>
+          <h1>we code</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusantium excepturi facere aspernatur,
+            deserunt corporis nulla tempora dolor quisquam autem, veritatis recusandae, dolorum explicabo impedit quod
+            amet illo? Culpa, impedit?</p>
+        </div>
+        <div class="col-md-5"><img src="img/coding-monochromatic-4c818.png" style="width: 80%; height: 80%" alt="">
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,32L48,64C96,96,192,160,288,154.7C384,149,480,75,576,80C672,85,768,171,864,192C960,213,1056,171,1152,149.3C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <section class="contact">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+            <h2>Contact Us:</h2>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </div>
+          <div class="col-md-5 justify-content-center align-items-center">
+            <img src="img/coding-monochromatic-4c818.png" style="width: 80%; height: 80%" alt="">
+          </div>
+      </div>
+    </div>
+  </section>
+  <footer class="gradient">
+    <div class="container-fluid text-center">
+      <span>Designed and built with all the love in the world by the Codeaxes team</span>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
